@@ -7,35 +7,35 @@ if not exist hotfix.cmd goto error
 set down=wget.com -abuild.log http://download.microsoft.com/download
 
 ECHO -------------------------------------------------------------------------------
-ECHO     (°°) Windows XP Pre-SP4 ¦Û°Ê«Ø¥ßµ{¦¡
+ECHO     (ï¿½ï¿½) Windows XP Pre-SP4 ï¿½Û°Ê«Ø¥ßµ{ï¿½ï¿½
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO     »¡©ú¡G³o¬O¥Î¨Ó¦Û°Ê²£¥Í (°°) Windows XP Pre-SP4 ªº§å¦¸ÀÉ¡C
-ECHO           °õ¦æ³o­Ó§å¦¸ÀÉ´N·|¦Û°Ê±q·L³nºô¯¸¤U¸ü§ó·sÀÉ¡A
-ECHO           ¨Ã«ö·Ó (°°) Windows XP Pre-SP4 ªº®æ¦¡¦Û°Ê²£¥Í¦w¸ËÀÉ¡C
-ECHO           ½Ð½T©w±z¤w¸g³s±µ 1Mb ¥H¤Wªº¼eÀWºô¸ô¡A¤U¸ü®É¶¡¤j¬ù¬°
-ECHO           10~30 ¤ÀÄÁ¤£µ¥¡A½Ð­@¤ßµ¥­Ô¡C
+ECHO     ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½oï¿½Oï¿½Î¨Ó¦Û°Ê²ï¿½ï¿½ï¿½ (ï¿½ï¿½) Windows XP Pre-SP4 ï¿½ï¿½ï¿½å¦¸ï¿½É¡C
+ECHO           ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Ó§å¦¸ï¿½É´Nï¿½|ï¿½Û°Ê±qï¿½Lï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½sï¿½É¡A
+ECHO           ï¿½Ã«ï¿½ï¿½ï¿½ (ï¿½ï¿½) Windows XP Pre-SP4 ï¿½ï¿½ï¿½æ¦¡ï¿½Û°Ê²ï¿½ï¿½Í¦wï¿½ï¿½ï¿½É¡C
+ECHO           ï¿½Ð½Tï¿½wï¿½zï¿½wï¿½gï¿½sï¿½ï¿½ 1Mb ï¿½Hï¿½Wï¿½ï¿½ï¿½eï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Uï¿½ï¿½ï¿½É¶ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½
+ECHO           10~30 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ð­@ï¿½ßµï¿½ï¿½Ô¡C
 ECHO.
-ECHO     ¦w¸Ë¥Ø¼Ð¹q¸£¨t²Î»Ý¨D¡G                          
+ECHO     ï¿½wï¿½Ë¥Ø¼Ð¹qï¿½ï¿½ï¿½tï¿½Î»Ý¨Dï¿½G                          
 ECHO           1. Windows XP SP3    
 ECHO           2. Windows Internet Explorer 8
 ECHO           3. Windows Media Player 11  
 ECHO.     
-ECHO     ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-ECHO     ¢x                       ½Ð«ö¥ô·NÁä¶}©l¤U¸ü¡I                         ¢x
-ECHO.    ¢|¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢} 
+ECHO     ï¿½zï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½{
+ECHO     ï¿½x                       ï¿½Ð«ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½}ï¿½lï¿½Uï¿½ï¿½ï¿½I                         ï¿½x
+ECHO.    ï¿½|ï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½} 
 ECHO.
 ECHO.
 ECHO.
-ECHO     ¨ä¥L§ó¸Ô²Óªº»¡©ú½Ð¨£ http://www.3sec.tw/    §ó·s¤é´Á¡G2012/03/17
+ECHO     ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Ô²Óªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¨ï¿½ http://www.3sec.tw/    ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½G2012/03/17
 ECHO -------------------------------------------------------------------------------
 pause
 CLS
 ECHO -------------------------------------------------------------------------------
-ECHO   ¶}©l¤U¸üÀÉ®×..... (Update to 2012/02)
+ECHO   ï¿½}ï¿½lï¿½Uï¿½ï¿½ï¿½É®ï¿½..... (Update to 2012/02)
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO   0. ¥¿¦b«Ø¥ß¦w¸Ë¥Ø¿ý¡A½Ðµy«á...
+ECHO   0. ï¿½ï¿½ï¿½bï¿½Ø¥ß¦wï¿½Ë¥Ø¿ï¿½ï¿½Aï¿½Ðµyï¿½ï¿½...
 ren wget.exe wget.com > nul
 if exist *.exe del /Q *.exe
 if exist *.msi del /Q *.msi
@@ -55,8 +55,8 @@ wxp_sp4\wmp11\hotfix2\
 ) do md %%i
 move /y hotfix.cmd wxp_sp4\ > nul
 ECHO.
-ECHO   1. ¥¿¦b¤U¸ü Windows XP SP3 ¤§«áªº©Ò¦³­×¥¿ÀÉ¡A½Ðµy«á...
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 1¡A½Ðµy«á...
+ECHO   1. ï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ Windows XP SP3 ï¿½ï¿½ï¿½áªºï¿½Ò¦ï¿½ï¿½×¥ï¿½ï¿½É¡Aï¿½Ðµyï¿½ï¿½...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 1ï¿½Aï¿½Ðµyï¿½ï¿½...
 %down%/f/0/c/f0cdf8f7-5952-42f9-8064-daa2087022c3/WindowsXP-KB952287-x86-CHT.exe
 %down%/f/5/d/f5df22ac-ba6f-4975-815a-c5c12becec69/WindowsXP-KB950762-x86-CHT.exe   
 %down%/e/e/e/eee2d6e2-e464-4349-b521-a5c6386b948e/WindowsXP-KB951830-x86-CHT.exe   
@@ -199,13 +199,57 @@ ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 1¡A½Ðµy«á...
 %down%/C/B/8/CB8EAAD5-839F-4DFE-B030-3EC11B30B6A5/WindowsXP-KB2621440-x86-CHT.exe
 %down%/C/3/3/C33021EE-B93D-4DB1-A28D-4F0645BD211E/WindowsXP-KB2641653-x86-CHT.exe
 %down%/B/B/3/BB39A134-76E1-4E37-9963-1C38AE327CAB/WindowsXP-KB2647518-x86-CHT.exe
+%down%/F/D/1/FD12461A-5EBE-4A22-B5CB-DAA58F27E2C5/WindowsXP-KB2653956-x86-CHT.exe
+REM 2012 May
+%down%/0/B/1/0B1FD6E2-4F91-4B57-B743-81FB19CD60DF/WindowsXP-KB2660649-x86-CHT.exe
+%down%/2/B/4/2B4E8FBD-93C7-4DE5-B031-EB784C412884/WindowsXP-KB2659262-x86-CHT.exe
+%down%/F/6/B/F6B1D11C-F22C-438F-BD90-22E6FC4249FE/WindowsXP-KB2676562-x86-CHT.exe
+%down%/B/6/1/B61E1B7F-34EE-40AF-838D-CDD07C4B4932/WindowsXP-KB2686509-x86-CHT.exe
+REM 2012 Jun
+%down%/E/C/9/EC962723-4706-4D86-BF90-9470C81D39B8/WindowsXP-KB2685939-x86-CHT.exe
+%down%/2/B/1/2B1AC91B-69E3-434F-8796-3F6FAA6F4C7A/WindowsXP-KB2709162-x86-CHT.exe
+%down%/E/F/3/EF306F8A-0E9E-453B-8438-07088C30D763/WindowsXP-KB2707511-x86-CHT.exe
+REM 2012 Jul
+%down%/E/A/6/EA61E2A5-FCC0-40B0-AD1B-69D7737DBD5B/WindowsXP-KB2718523-x86-CHT.exe
+%down%/A/8/E/A8E63CEE-5ED6-4CD3-853A-BE04FA436B73/WindowsXP-KB2691442-x86-CHT.exe
+%down%/5/C/6/5C60FFBA-BB2E-40C1-A86D-165DA01E560D/WindowsXP-KB2655992-x86-CHT.exe
+REM 2012 Aug
+%down%/A/6/E/A6EC8CCB-E322-4DF1-855D-85B4F3C30475/WindowsXP-KB2723135-v2-x86-CHT.exe
+%down%/0/8/8/088F57CC-8BCE-436E-881A-926FAC924412/WindowsXP-KB2705219-v2-x86-CHT.exe
+%down%/9/B/5/9B55C019-AABE-4332-B9D7-0A5CCAA187C5/WindowsXP-KB2712808-x86-CHT.exe
+%down%/4/6/B/46B1C676-82A0-4687-B0B8-56FBA96FF882/WindowsXP-KB2731847-v2-x86-CHT.exe
+REM 2012 Oct
+%down%/3/0/D/30DEA7A8-6C76-47BD-A0BC-3B84545D3C3F/WindowsXP-KB2724197-x86-CHT.exe
+REM 2012 Nov
+%down%/7/C/B/7CB79873-C07C-412B-A10D-07CD8CF4589D/WindowsXP-KB2727528-x86-CHT.exe
+%down%/0/6/F/06F23CFC-BDB7-4F58-BC45-67D39B8A0791/WindowsXP-KB2761226-x86-CHT.exe
+REM 2012 Dec
+%down%/4/8/A/48A60EDF-A0A4-465B-A0F9-2F61610B921C/WindowsXP-KB2753842-v2-x86-CHT.exe
+%down%/E/C/A/ECA35BA2-CEF1-42AA-B818-5FD2EE97038D/WindowsXP-KB2779030-x86-CHT.exe
+%down%/5/1/B/51BDA9A7-0A1D-4C86-BC15-1FC8EE78FECA/WindowsXP-KB2758857-x86-CHT.exe
+%down%/C/D/2/CD291E7B-0F0A-44F1-B465-53D01A15B884/WindowsXP-KB2770660-x86-CHT.exe
+REM 2013 Feb
+%down%/8/C/9/8C908320-2E07-433E-838B-0F4BD58F5670/WindowsXP-KB2780091-x86-CHT.exe
+%down%/E/D/7/ED7C1A57-FC8B-42A8-BC78-36844B003F04/WindowsXP-KB2802968-x86-CHT.exe
+%down%/F/3/A/F3A90411-97CF-4940-A2EA-6D7B59058469/WindowsXP-KB2778344-x86-CHT.exe
+%down%/5/9/3/5939221C-2003-4F9A-92BE-2FC7305BF5C9/WindowsXP-KB2799494-x86-CHT.exe
+REM 2013 Mar
+%down%/9/5/C/95C6074A-4F0E-477D-9124-EB5B250C1509/WindowsXP-KB2807986-x86-CHT.exe
+REM 2013 Apr
+%down%/5/E/5/5E57453F-070A-490F-971B-7CF7466BED09/WindowsXP-KB2813345-x86-CHT.exe
+%down%/1/A/0/1A0C51E7-9F13-47D4-95D8-C98892BDAB59/WindowsXP-KB2813347-v2-x86-CHT.exe
+%down%/A/8/E/A8E87AA4-DFBB-460F-B66D-309EB353321E/WindowsXP-KB2813170-x86-CHT.exe
+%down%/2/2/3/2237AE1D-4FD5-463E-BC31-591E4A7FD459/WindowsXP-KB2801109-x86-CHT.exe
+%down%/7/4/9/7494895C-791E-416A-BB8F-8D6F3C2695DA/WindowsXP-KB2820917-x86-CHT.exe
+%down%/A/8/4/A8471DE2-0CB3-43D7-99EA-8E2D2B565560/WindowsXP-KB2808735-x86-CHT.exe
+
 move /y *.exe wxp_sp4\wxpsp3\hotfix1\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 2¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 2ï¿½Aï¿½Ðµyï¿½ï¿½...
 %down%/1/7/1/17115a2c-8493-4947-bb7d-d7b58457acf7/CAPICOM-KB931906-v2102.exe
 %down%/c/c/3/cc3460fc-91e3-4c9f-8ceb-d576a0662aa9/WindowsXP-KB923789-x86-CHT.exe
 %down%/3/A/C/3AC094F3-44FE-4170-B80D-A50725BB75C5/rootsupd.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix2\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 3¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 3ï¿½Aï¿½Ðµyï¿½ï¿½...
 %down%/f/c/d/fcd66977-535c-4f8f-94cc-dace02b417f5/WindowsXP-KB954459-x86-CHT.exe 
 %down%/8/4/6/84675FA7-F77E-40EB-941A-11C214CF5846/WindowsXP-KB975467-x86-CHT.exe
 %down%/3/2/9/329c83c3-c092-48d8-b1eb-709319e8cffa/Windows-KB943729-x86-CHT.exe
@@ -215,10 +259,11 @@ start /wait msxml4-KB973685-cht.exe /passive /x:.\
 del /q /f msxml4-KB973685-cht.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix3\ > nul
 move /y *.msi wxp_sp4\wxpsp3\hotfix3\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 4¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 4ï¿½Aï¿½Ðµyï¿½ï¿½...
+REM Microsoft Windows Malicious Software Removal Tool
 %down%/4/A/A/4AA524C6-239D-47FF-860B-5B397199CBF8/windows-kb890830-v4.6.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix4\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü Windows Update Agent¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ Windows Update Agentï¿½Aï¿½Ðµyï¿½ï¿½...
 wget.com -abuild.log http://download.windowsupdate.com/WindowsUpdate/redist/standalone/7.4.7600.243/WindowsUpdateAgent30-x86.exe
 windowsupdateagent30-x86.exe /Q /X:wxp_sp4\wxpsp3\hotfix5
 wget.com -abuild.log http://update.microsoft.com/microsoftupdate/v6/V5Controls/en/x86/client/muweb_site.cab
@@ -231,10 +276,10 @@ rd /q /s wxp_sp4\wxpsp3\hotfix5\%%i > nul
 del /q /f wxp_sp4\wxpsp3\hotfix5\*.mui_%%i > nul
 del /q /f wxp_sp4\wxpsp3\hotfix5\wuauhelp.chm_%%i > nul  
 )
-ECHO      ¤U¸ü§¹¦¨¡C
+ECHO      ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½C
 ECHO.
-ECHO   2. ¥¿¦b¤U¸ü Windows Internet Explorer 8 ¤§«áªº©Ò¦³­×¥¿ÀÉ¡A½Ðµy«á...
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 1¡A½Ðµy«á...
+ECHO   2. ï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ Windows Internet Explorer 8 ï¿½ï¿½ï¿½áªºï¿½Ò¦ï¿½ï¿½×¥ï¿½ï¿½É¡Aï¿½Ðµyï¿½ï¿½...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 1ï¿½Aï¿½Ðµyï¿½ï¿½...
 %down%/6/5/1/6516E026-DF9B-47B6-8E6E-5B97FBA1A046/IE8-WindowsXP-KB971961-x86-CHT.exe
 %down%/7/7/F/77FFF321-FF18-4377-9F52-5E9605EEB191/IE8-WindowsXP-KB2510531-x86-CHT.exe
 %down%/5/4/1/5414F630-DDA1-4619-A791-D2B828E8E6BD/IE8-WindowsXP-KB2559049-x86-CHT.exe
@@ -242,46 +287,66 @@ ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 1¡A½Ðµy«á...
 %down%/E/C/0/EC0CC5CD-C11C-4FEC-9B87-66687D8C1A8C/IE8-WindowsXP-KB2647516-x86-CHT.exe
 %down%/0/4/C/04C02419-26E9-4CA3-910F-88B712F15DA6/IE8-WindowsXP-KB2598845-x86-CHT.exe
 %down%/2/F/E/2FE23C7F-8815-41C8-A875-BFD5C3D756E1/IE8-WindowsXP-KB2632503-x86-CHT.exe
+REM 2012 Apr
+%down%/C/8/0/C800A0E0-02A7-44AB-9A2D-65CAE7AA2789/IE8-WindowsXP-KB2675157-x86-CHT.exe
+REM 2012 Jun
+%down%/2/7/4/274D90B8-413A-40F5-A7C9-1BB21C37F70E/IE8-WindowsXP-KB2699988-x86-CHT.exe
+REM 2012 Aug
+%down%/5/3/5/535CE054-FA43-499B-910B-A4EFE63C211D/IE8-WindowsXP-KB2722913-x86-CHT.exe
+REM 2012 Sep
+%down%/C/C/9/CC9E3946-E8D0-486A-95E1-1297B40AC6A6/IE8-WindowsXP-KB2744842-x86-CHT.exe
+REM 2012 Dec
+%down%/9/3/B/93BE48F0-285A-4FCE-86C1-AFACA1FA2708/IE8-WindowsXP-KB2761465-x86-CHT.exe
+REM 2013 Jan
+%down%/D/8/3/D83C3388-F1A4-4615-8756-1466F9663A01/IE8-WindowsXP-KB2799329-x86-CHT.exe
+REM 2013 Feb
+%down%/2/A/4/2A49B510-8951-413F-89E2-F14F0B5F474A/IE8-WindowsXP-KB2792100-x86-CHT.exe
+%down%/2/3/0/2305D6F3-A124-4561-8BCD-C92BD4CA271D/IE8-WindowsXP-KB2797052-x86-CHT.exe
+REM 2013 Mar
+%down%/D/1/0/D105448D-9552-461D-B7ED-DB418A3CF71B/IE8-WindowsXP-KB2809289-x86-CHT.exe
+REM 2013 Apr
+%down%/8/A/7/8A7D6886-3487-4889-A6EA-B751AA34B273/IE8-WindowsXP-KB2817183-x86-CHT.exe
+
 move /y *.exe wxp_sp4\ie8\hotfix1\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 2¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 2ï¿½Aï¿½Ðµyï¿½ï¿½...
 %down%/F/7/8/F7861118-DA5C-4D0D-B3CB-865C4453A066/WindowsXP-KB2467659-x86-CHT.exe
 move /y *.exe wxp_sp4\ie8\hotfix2\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 3¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 3ï¿½Aï¿½Ðµyï¿½ï¿½...
 rem move /y *.exe wxp_sp4\ie8\hotfix3\ > nul
-ECHO      ¤U¸ü§¹¦¨¡C
+ECHO      ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½C
 ECHO.
-ECHO   3. ¥¿¦b¤U¸ü Windows Media Player 11 ¤§«áªº©Ò¦³­×¥¿ÀÉ¡A½Ðµy«á...
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 1¡A½Ðµy«á...
+ECHO   3. ï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ Windows Media Player 11 ï¿½ï¿½ï¿½áªºï¿½Ò¦ï¿½ï¿½×¥ï¿½ï¿½É¡Aï¿½Ðµyï¿½ï¿½...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 1ï¿½Aï¿½Ðµyï¿½ï¿½...
 %down%/5/6/3/563E6597-4B8D-48A2-BA93-8E045F3FBC53/WindowsXP-WindowsMedia-KB973540-x86-CHT.exe
 move /y *.exe wxp_sp4\wmp11\hotfix1\ > nul
-ECHO      ¢u¥¿¦b¤U¸ü HotFix Type 2¡A½Ðµy«á...
+ECHO      ï¿½uï¿½ï¿½ï¿½bï¿½Uï¿½ï¿½ HotFix Type 2ï¿½Aï¿½Ðµyï¿½ï¿½...
 rem move /y *.exe wxp_sp4\wmp11\hotfix2\ > nul
-ECHO      ¤U¸ü§¹¦¨¡C
+ECHO      ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½C
 ECHO.
 ECHO.
 CLS
 ECHO -------------------------------------------------------------------------------
-ECHO     ÀÉ®×¤U¸ü§¹¦¨¡I
+ECHO     ï¿½É®×¤Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½I
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO     »¡©ú¡G(°°) Windows XP Pre-SP4 ©Ò¦³ÀÉ®×¤w¤U¸ü§¹¦¨¡C
-ECHO           ±z¥i¦b³o­Ó¥Ø¿ý¤U§ä¨ì wxp_sp4¡A±z¥u­n±N¦¹¥Ø¿ý½Æ»s¨ì±z©Ò­n§ó·sªº¹q¸£¡A
-ECHO           ¨Ã°õ¦æ hotfix.cmd §Y¥i¶}©l¦w¸Ë (°°) Windows XP Pre-SP4¡C
+ECHO     ï¿½ï¿½ï¿½ï¿½ï¿½G(ï¿½ï¿½) Windows XP Pre-SP4 ï¿½Ò¦ï¿½ï¿½É®×¤wï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½C
+ECHO           ï¿½zï¿½iï¿½bï¿½oï¿½Ó¥Ø¿ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½ wxp_sp4ï¿½Aï¿½zï¿½uï¿½nï¿½Nï¿½ï¿½ï¿½Ø¿ï¿½ï¿½Æ»sï¿½ï¿½ï¿½zï¿½Ò­nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½qï¿½ï¿½ï¿½A
+ECHO           ï¿½Ã°ï¿½ï¿½ï¿½ hotfix.cmd ï¿½Yï¿½iï¿½}ï¿½lï¿½wï¿½ï¿½ (ï¿½ï¿½) Windows XP Pre-SP4ï¿½C
 ECHO.
-ECHO           ­ì©lªº build.cmd ©M wget.exe¡A±z¥i¦Û¦æ§R°£¡C
+ECHO           ï¿½ï¿½ï¿½lï¿½ï¿½ build.cmd ï¿½M wget.exeï¿½Aï¿½zï¿½iï¿½Û¦ï¿½ï¿½Rï¿½ï¿½ï¿½C
 ECHO.           
-ECHO           ¥t¥~¡A³o­Ó¥Ø¿ý¤U·|²£¥Í°O¿ýÀÉ build.log¡A³o¬O¤U¸üÀÉ®×ªº§¹¾ã°O¿ý¡A
-ECHO           ±z¥i¥H¶}±Ò³o­ÓÀÉ®×ÀË¬d¤U¸ü°O¿ý¡A«ö¤U¥ô·NÁä«á¥iÃö³¬¥»µ{¦¡¡C
+ECHO           ï¿½tï¿½~ï¿½Aï¿½oï¿½Ó¥Ø¿ï¿½ï¿½Uï¿½|ï¿½ï¿½ï¿½Í°Oï¿½ï¿½ï¿½ï¿½ build.logï¿½Aï¿½oï¿½Oï¿½Uï¿½ï¿½ï¿½É®×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½A
+ECHO           ï¿½zï¿½iï¿½Hï¿½}ï¿½Ò³oï¿½ï¿½ï¿½É®ï¿½ï¿½Ë¬dï¿½Uï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½C
 ECHO.
 ECHO.
 ECHO.
-ECHO     ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-ECHO     ¢x                       ½Ð«ö¥ô·NÁäÃö³¬µ{¦¡¡I                         ¢x
-ECHO.    ¢|¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢} 
+ECHO     ï¿½zï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½{
+ECHO     ï¿½x                       ï¿½Ð«ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½I                         ï¿½x
+ECHO.    ï¿½|ï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½} 
 ECHO.     
 ECHO.
 ECHO.
-ECHO     ¨ä¥L§ó¸Ô²Óªº»¡©ú½Ð¨£ http://www.3sec.tw/
+ECHO     ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Ô²Óªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¨ï¿½ http://www.3sec.tw/
 ECHO -------------------------------------------------------------------------------
 pause
 ren wget.com wget.exe > nul
@@ -291,27 +356,27 @@ goto end
 :error
 CLS
 ECHO -------------------------------------------------------------------------------
-ECHO     §ä¤£¨ì¥²­nªºÀÉ®×¡I
+ECHO     ï¿½ä¤£ï¿½ì¥²ï¿½nï¿½ï¿½ï¿½É®×¡I
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO     »¡©ú¡G±z¥¿¦b°õ¦æªº (°°) Windows XP Pre-SP4 ¦Û°Ê«Ø¥ßµ{¦¡
-ECHO           ¯Ê¤Ö¥²­nªº°õ¦æÀÉ¡A½Ð½T»{±z¬O§_¦³§¹¾ãªºÀÉ®×¡A
-ECHO           ©Î¬O­«·s¤U¸ü (°°) Windows XP Pre-SP4 ¦Û°Ê«Ø¥ßµ{¦¡¡C
+ECHO     ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½zï¿½ï¿½ï¿½bï¿½ï¿½ï¿½æªº (ï¿½ï¿½) Windows XP Pre-SP4 ï¿½Û°Ê«Ø¥ßµ{ï¿½ï¿½
+ECHO           ï¿½Ê¤Ö¥ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð½Tï¿½{ï¿½zï¿½Oï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ãªºï¿½É®×¡A
+ECHO           ï¿½Î¬Oï¿½ï¿½ï¿½sï¿½Uï¿½ï¿½ (ï¿½ï¿½) Windows XP Pre-SP4 ï¿½Û°Ê«Ø¥ßµ{ï¿½ï¿½ï¿½C
 ECHO.
-ECHO           ¥»µ{¦¡§Y±NÃö³¬¡C
+ECHO           ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Yï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½C
 ECHO.         
 ECHO.         
 ECHO.         
 ECHO.         
 ECHO.
 ECHO.
-ECHO     ¢z¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢{
-ECHO     ¢x                       ½Ð«ö¥ô·NÁäÃö³¬µ{¦¡¡I                         ¢x
-ECHO.    ¢|¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢w¢} 
+ECHO     ï¿½zï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½{
+ECHO     ï¿½x                       ï¿½Ð«ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½I                         ï¿½x
+ECHO.    ï¿½|ï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½wï¿½} 
 ECHO.     
 ECHO.
 ECHO.
-ECHO     ¨ä¥L§ó¸Ô²Óªº»¡©ú½Ð¨£ http://www.3sec.tw/
+ECHO     ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Ô²Óªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¨ï¿½ http://www.3sec.tw/
 ECHO -------------------------------------------------------------------------------
 pause
 goto end
