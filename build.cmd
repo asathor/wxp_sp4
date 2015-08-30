@@ -7,35 +7,35 @@ if not exist hotfix.cmd goto error
 set down=wget.com -abuild.log http://download.microsoft.com/download
 
 ECHO -------------------------------------------------------------------------------
-ECHO     (��) Windows XP Pre-SP4 �۰ʫإߵ{��
+ECHO     (偽) Windows XP Pre-SP4 自動建立程式
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO     �����G�o�O�ΨӦ۰ʲ��� (��) Windows XP Pre-SP4 ���妸�ɡC
-ECHO           �����o�ӧ妸�ɴN�|�۰ʱq�L�n�����U�����s�ɡA
-ECHO           �ë��� (��) Windows XP Pre-SP4 ���榡�۰ʲ��ͦw���ɡC
-ECHO           �нT�w�z�w�g�s�� 1Mb �H�W���e�W�����A�U���ɶ��j����
-ECHO           10~30 ���������A�Э@�ߵ��ԡC
+ECHO     說明：這是用來自動產生 (偽) Windows XP Pre-SP4 的批次檔。
+ECHO           執行這個批次檔就會自動從微軟網站下載更新檔，
+ECHO           並按照 (偽) Windows XP Pre-SP4 的格式自動產生安裝檔。
+ECHO           請確定您已經連接 1Mb 以上的寬頻網路，下載時間大約為
+ECHO           10~30 分鐘不等，請耐心等候。
 ECHO.
-ECHO     �w�˥ؼйq���t�λݨD�G                          
+ECHO     安裝目標電腦系統需求：                          
 ECHO           1. Windows XP SP3    
 ECHO           2. Windows Internet Explorer 8
 ECHO           3. Windows Media Player 11  
 ECHO.     
-ECHO     �z�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�{
-ECHO     �x                       �Ы����N���}�l�U���I                         �x
-ECHO.    �|�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�} 
+ECHO     ┌──────────────────────────────────┐
+ECHO     │                       請按任意鍵開始下載！                         │
+ECHO.    └──────────────────────────────────┘ 
 ECHO.
 ECHO.
 ECHO.
-ECHO     ���L���ԲӪ������Ш� http://www.3sec.tw/    ���s�����G2012/03/17
+ECHO     其他更詳細的說明請見 http://www.3sec.tw/    更新日期：2012/03/17
 ECHO -------------------------------------------------------------------------------
 pause
 CLS
 ECHO -------------------------------------------------------------------------------
-ECHO   �}�l�U���ɮ�..... (Update to 2012/02)
+ECHO   開始下載檔案..... (Update to 2012/02)
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO   0. ���b�إߦw�˥ؿ��A�еy��...
+ECHO   0. 正在建立安裝目錄，請稍後...
 ren wget.exe wget.com > nul
 if exist *.exe del /Q *.exe
 if exist *.msi del /Q *.msi
@@ -55,8 +55,8 @@ wxp_sp4\wmp11\hotfix2\
 ) do md %%i
 move /y hotfix.cmd wxp_sp4\ > nul
 ECHO.
-ECHO   1. ���b�U�� Windows XP SP3 ���᪺�Ҧ��ץ��ɡA�еy��...
-ECHO      �u���b�U�� HotFix Type 1�A�еy��...
+ECHO   1. 正在下載 Windows XP SP3 之後的所有修正檔，請稍後...
+ECHO      ├正在下載 HotFix Type 1，請稍後...
 %down%/f/0/c/f0cdf8f7-5952-42f9-8064-daa2087022c3/WindowsXP-KB952287-x86-CHT.exe
 %down%/f/5/d/f5df22ac-ba6f-4975-815a-c5c12becec69/WindowsXP-KB950762-x86-CHT.exe   
 %down%/e/e/e/eee2d6e2-e464-4349-b521-a5c6386b948e/WindowsXP-KB951830-x86-CHT.exe   
@@ -279,14 +279,19 @@ REM 2014 Jan
 REM 2014 Feb
 %down%/9/1/D/91DE7E58-FA1A-4425-A8CD-293F990FAC52/WindowsXP-KB2909212-x86-CHT.exe
 %down%/0/3/3/03374A1F-2759-4627-AE60-814B0DEC382E/WindowsXP-KB2916036-x86-CHT.exe
-
+REM 2014 Mar
+%down%/1/D/2/1D2E679D-7C00-41A6-AAE3-CAFBE6E43BCD/WindowsXP-KB2929961-x86-CHT.exe
+%down%/3/1/0/3101289E-488B-4EC9-B34F-C0A87DEA21A4/WindowsXP-KB2930275-x86-CHT.exe
+%down%/F/3/C/F3C77FBE-6FDF-4592-A5DB-EAF22334B1EB/WindowsXP-KB2933528-x86-CHT.exe
+REM 2014 Apr
+%down%/E/D/3/ED352ABB-B1E5-4153-8486-BD1D2FD180A5/WindowsXP-KB2922229-x86-CHT.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix1\ > nul
-ECHO      �u���b�U�� HotFix Type 2�A�еy��...
+ECHO      ├正在下載 HotFix Type 2，請稍後...
 %down%/1/7/1/17115a2c-8493-4947-bb7d-d7b58457acf7/CAPICOM-KB931906-v2102.exe
 %down%/c/c/3/cc3460fc-91e3-4c9f-8ceb-d576a0662aa9/WindowsXP-KB923789-x86-CHT.exe
 %down%/3/A/C/3AC094F3-44FE-4170-B80D-A50725BB75C5/rootsupd.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix2\ > nul
-ECHO      �u���b�U�� HotFix Type 3�A�еy��...
+ECHO      ├正在下載 HotFix Type 3，請稍後...
 %down%/f/c/d/fcd66977-535c-4f8f-94cc-dace02b417f5/WindowsXP-KB954459-x86-CHT.exe 
 %down%/8/4/6/84675FA7-F77E-40EB-941A-11C214CF5846/WindowsXP-KB975467-x86-CHT.exe
 %down%/3/2/9/329c83c3-c092-48d8-b1eb-709319e8cffa/Windows-KB943729-x86-CHT.exe
@@ -296,11 +301,11 @@ start /wait msxml4-KB973685-cht.exe /passive /x:.\
 del /q /f msxml4-KB973685-cht.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix3\ > nul
 move /y *.msi wxp_sp4\wxpsp3\hotfix3\ > nul
-ECHO      �u���b�U�� HotFix Type 4�A�еy��...
+ECHO      ├正在下載 HotFix Type 4，請稍後...
 REM Microsoft Windows Malicious Software Removal Tool
 %down%/4/A/A/4AA524C6-239D-47FF-860B-5B397199CBF8/windows-kb890830-v4.6.exe
 move /y *.exe wxp_sp4\wxpsp3\hotfix4\ > nul
-ECHO      �u���b�U�� Windows Update Agent�A�еy��...
+ECHO      ├正在下載 Windows Update Agent，請稍後...
 wget.com -abuild.log http://download.windowsupdate.com/WindowsUpdate/redist/standalone/7.4.7600.243/WindowsUpdateAgent30-x86.exe
 windowsupdateagent30-x86.exe /Q /X:wxp_sp4\wxpsp3\hotfix5
 wget.com -abuild.log http://update.microsoft.com/microsoftupdate/v6/V5Controls/en/x86/client/muweb_site.cab
@@ -313,10 +318,10 @@ rd /q /s wxp_sp4\wxpsp3\hotfix5\%%i > nul
 del /q /f wxp_sp4\wxpsp3\hotfix5\*.mui_%%i > nul
 del /q /f wxp_sp4\wxpsp3\hotfix5\wuauhelp.chm_%%i > nul  
 )
-ECHO      �U�������C
+ECHO      下載完成。
 ECHO.
-ECHO   2. ���b�U�� Windows Internet Explorer 8 ���᪺�Ҧ��ץ��ɡA�еy��...
-ECHO      �u���b�U�� HotFix Type 1�A�еy��...
+ECHO   2. 正在下載 Windows Internet Explorer 8 之後的所有修正檔，請稍後...
+ECHO      ├正在下載 HotFix Type 1，請稍後...
 %down%/6/5/1/6516E026-DF9B-47B6-8E6E-5B97FBA1A046/IE8-WindowsXP-KB971961-x86-CHT.exe
 %down%/7/7/F/77FFF321-FF18-4377-9F52-5E9605EEB191/IE8-WindowsXP-KB2510531-x86-CHT.exe
 %down%/5/4/1/5414F630-DDA1-4619-A791-D2B828E8E6BD/IE8-WindowsXP-KB2559049-x86-CHT.exe
@@ -363,50 +368,54 @@ REM 2013 Dec
 REM 2014 Feb
 %down%/2/3/6/23624AC2-5752-4C00-8FA8-53791AAD0C7D/IE8-WindowsXP-KB2909921-x86-CHT.exe
 %down%/7/0/D/70D109C9-7EC3-4A4E-AC9F-0B68F3EA2DB5/IE8-WindowsXP-KB2909210-x86-CHT.exe
-
+REM 2014 Mar
+%down%/8/A/C/8AC8D400-BC19-48F8-A5DF-620BDE90DA74/IE8-WindowsXP-KB2925418-x86-CHT.exe
+REM 2014 Apr
+%down%/4/E/A/4EA4707A-7C39-486B-A761-EE17100C24DB/IE8-WindowsXP-KB2936068-x86-CHT.exe
+%down%/6/0/9/609115EA-02F5-4223-9C24-63A831E7092F/IE8-WindowsXP-KB2964358-x86-custom-CHT.exe
 move /y *.exe wxp_sp4\ie8\hotfix1\ > nul
-ECHO      �u���b�U�� HotFix Type 2�A�еy��...
+ECHO      ├正在下載 HotFix Type 2，請稍後...
 %down%/F/7/8/F7861118-DA5C-4D0D-B3CB-865C4453A066/WindowsXP-KB2467659-x86-CHT.exe
 move /y *.exe wxp_sp4\ie8\hotfix2\ > nul
-ECHO      �u���b�U�� HotFix Type 3�A�еy��...
+ECHO      ├正在下載 HotFix Type 3，請稍後...
 rem move /y *.exe wxp_sp4\ie8\hotfix3\ > nul
-ECHO      �U�������C
+ECHO      下載完成。
 ECHO.
-ECHO   3. ���b�U�� Windows Media Player 11 ���᪺�Ҧ��ץ��ɡA�еy��...
-ECHO      �u���b�U�� HotFix Type 1�A�еy��...
+ECHO   3. 正在下載 Windows Media Player 11 之後的所有修正檔，請稍後...
+ECHO      ├正在下載 HotFix Type 1，請稍後...
 %down%/5/6/3/563E6597-4B8D-48A2-BA93-8E045F3FBC53/WindowsXP-WindowsMedia-KB973540-x86-CHT.exe
 REM 2013 Jul
 %down%/D/6/9/D6901ECC-FAA6-4D36-9A7B-4934DA073A3A/WindowsXP-WindowsMedia-KB2834904-v2-x86-CHT.exe
 %down%/5/8/7/5876B63C-20BE-4D60-A389-4A95F9F10C87/WindowsXP-WindowsMedia-KB2845142-x86-CHT.exe
 move /y *.exe wxp_sp4\wmp11\hotfix1\ > nul
-ECHO      �u���b�U�� HotFix Type 2�A�еy��...
+ECHO      ├正在下載 HotFix Type 2，請稍後...
 rem move /y *.exe wxp_sp4\wmp11\hotfix2\ > nul
-ECHO      �U�������C
+ECHO      下載完成。
 ECHO.
 ECHO.
 CLS
 ECHO -------------------------------------------------------------------------------
-ECHO     �ɮפU�������I
+ECHO     檔案下載完成！
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO     �����G(��) Windows XP Pre-SP4 �Ҧ��ɮפw�U�������C
-ECHO           �z�i�b�o�ӥؿ��U���� wxp_sp4�A�z�u�n�N���ؿ��ƻs���z�ҭn���s���q���A
-ECHO           �ð��� hotfix.cmd �Y�i�}�l�w�� (��) Windows XP Pre-SP4�C
+ECHO     說明：(偽) Windows XP Pre-SP4 所有檔案已下載完成。
+ECHO           您可在這個目錄下找到 wxp_sp4，您只要將此目錄複製到您所要更新的電腦，
+ECHO           並執行 hotfix.cmd 即可開始安裝 (偽) Windows XP Pre-SP4。
 ECHO.
-ECHO           ���l�� build.cmd �M wget.exe�A�z�i�ۦ��R���C
+ECHO           原始的 build.cmd 和 wget.exe，您可自行刪除。
 ECHO.           
-ECHO           �t�~�A�o�ӥؿ��U�|���ͰO���� build.log�A�o�O�U���ɮת������O���A
-ECHO           �z�i�H�}�ҳo���ɮ��ˬd�U���O���A���U���N�����i�������{���C
+ECHO           另外，這個目錄下會產生記錄檔 build.log，這是下載檔案的完整記錄，
+ECHO           您可以開啟這個檔案檢查下載記錄，按下任意鍵後可關閉本程式。
 ECHO.
 ECHO.
 ECHO.
-ECHO     �z�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�{
-ECHO     �x                       �Ы����N�������{���I                         �x
-ECHO.    �|�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�} 
+ECHO     ┌──────────────────────────────────┐
+ECHO     │                       請按任意鍵關閉程式！                         │
+ECHO.    └──────────────────────────────────┘ 
 ECHO.     
 ECHO.
 ECHO.
-ECHO     ���L���ԲӪ������Ш� http://www.3sec.tw/
+ECHO     其他更詳細的說明請見 http://www.3sec.tw/
 ECHO -------------------------------------------------------------------------------
 pause
 ren wget.com wget.exe > nul
@@ -414,29 +423,30 @@ explorer "http://www.3sec.tw/"
 goto end
 
 :error
+:error
 CLS
 ECHO -------------------------------------------------------------------------------
-ECHO     �䤣�쥲�n���ɮסI
+ECHO     找不到必要的檔案！
 ECHO -------------------------------------------------------------------------------
 ECHO.
-ECHO     �����G�z���b���檺 (��) Windows XP Pre-SP4 �۰ʫإߵ{��
-ECHO           �ʤ֥��n�������ɡA�нT�{�z�O�_�����㪺�ɮסA
-ECHO           �άO���s�U�� (��) Windows XP Pre-SP4 �۰ʫإߵ{���C
+ECHO     說明：您正在執行的 (偽) Windows XP Pre-SP4 自動建立程式
+ECHO           缺少必要的執行檔，請確認您是否有完整的檔案，
+ECHO           或是重新下載 (偽) Windows XP Pre-SP4 自動建立程式。
 ECHO.
-ECHO           ���{���Y�N�����C
+ECHO           本程式即將關閉。
 ECHO.         
 ECHO.         
 ECHO.         
 ECHO.         
 ECHO.
 ECHO.
-ECHO     �z�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�{
-ECHO     �x                       �Ы����N�������{���I                         �x
-ECHO.    �|�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�w�} 
+ECHO     ┌──────────────────────────────────┐
+ECHO     │                       請按任意鍵關閉程式！                         │
+ECHO.    └──────────────────────────────────┘ 
 ECHO.     
 ECHO.
 ECHO.
-ECHO     ���L���ԲӪ������Ш� http://www.3sec.tw/
+ECHO     其他更詳細的說明請見 http://www.3sec.tw/
 ECHO -------------------------------------------------------------------------------
 pause
 goto end
